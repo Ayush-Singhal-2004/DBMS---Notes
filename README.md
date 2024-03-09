@@ -84,3 +84,46 @@ vi. Reduced Data Transfer : Minimizes the need for transferring large amounts of
 i. Insertion Anomaly : Adding new data may be challenging if the required information includes fields that can't be left blank. </br>
 ii. Deletion Anomaly : Removing data related to a certain entity may unintentionally eliminate information about another entity. </br>
 iii. Update Anomaly : Modifying data in one place might result in inconsistencies if the change is not propagated to all relevant locations. </br>
+
+<h1>Unit 2</h1>
+
+<h3>1. Define entity?</h3>
+- A real-world thing either living or non-living that is easily recognizable and nonrecognizable. </br>
+- It is anything in the enterprise that is to be represented in our database. </br>
+- It may be a physical thing or simply a fact about the enterprise or an event that happens in the real world. </br></br>
+- Examples of entities:
+i. Person: Employee, Student, Patient </br>
+ii. Place: Store, Building </br>
+iii. Object: Machine, product, and Car </br>
+iv. Event: Sale, Registration, renewal </br>
+![](https://qph.cf2.quoracdn.net/main-qimg-d1114e14f139d17718b8c1b9d1772680)
+</br>
+- Entity Set : It is a collection of the entities of the same type i.e. entities which share some common property or object. Example - </br> 
+i. The collection of all the students from the student table at a particular instant of time is an example of 
+an entity set. </br>
+ii. The collection of all the employees from the employee table at a particular instant of time is an example of entity set. </br>
+![](https://www.gatevidyalay.com/wp-content/uploads/2018/05/Weak-Entity-Set-Example.png)
+</br>
+- Entity Type: It refers to the category that a particular entity belongs to. </br>
+i. A table named student in a university database. </br>
+ii. A table named employee in a company database. </br>
+![](https://afteracademy.com/images/what-is-an-entity-entity-type-and-entity-set-entity-set-example-63baca2f9d502076.jpg)
+</br>
+
+<h3>2. Define weak and strong entity?</h3>
+</br>
+![](https://cms.boardmix.com/images/articles/entity-in-dbms.png)
+</br>
+i. Strong Entity Type : </br>
+-  It is also called Long or Independent Entity. An entity type which has primary key is termed as Strong Entity. </br>
+- It is represented by a rectangle. In the above example, Roll_no identifies each element of the table uniquely and hence, we can say that STUDENT is a strong entity type. </br>
+![](https://static.javatpoint.com/dbms/images/entity-in-dbms2.png)
+</br>
+ii. Weak Entity Type : </br>
+- It is also called as Dependent Entity.Weak entity type doesn't have a key attribute. </br> 
+- Weak entity type can't be identified on its own. It depends upon some other strong entity for its distinct identity. </br>
+- There can be a room only if building exits. There can be no independent existence of a room. </br>
+- A weak entity is represented by a double outlined rectangle.For example – a bank account cannot be uniquely 
+identified without knowing the bank to which the account belongs, so bank account is a weak entity. </br>
+![](https://static.javatpoint.com/dbms/images/entity-in-dbms3.png)
+</br>
