@@ -1,4 +1,4 @@
-<h1>Unit 1</h1></br>
+<h1>Unit 1</h1>
 
 <h3>Q1 : What is DBA?</h3>
 - Database Administrator (DBA) is a person responsible for the installation, configuration, upgrading, monitoring, maintenance & security of databases in an organization. They are overall commander of Database system. He also co-ordinates & implements security measures to save the database. </br>
